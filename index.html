@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NusaLaptop - Toko Laptop.id</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+<div class="promo">
+  <p>Waspada penipuan yang mengatasnamakan Nusalaptop. Info selengkapnya, <a href="#">klik di sini</a></p>
+</div>
+
+<header class="header">
+  <div class="wadah header-atas">
+    <a href="#" class="logo">Nusalaptop</a>
+    <span class="badge">Official<br>Partner</span>
+    <form class="cari" role="search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+      <input type="search" placeholder="Cari laptop, chipset, RTX..." aria-label="Cari produk">
+    </form>
+    <div class="aksi">
+      <a href="#">Pilih toko</a>
+      <a href="#" aria-label="Akun"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-7 8-7s8 3 8 7"/></svg></a>
+      <a href="#" aria-label="Keranjang"><svg viewBox="0 0 24 24"><rect x="5" y="7" width="14" height="14" rx="3"/><path d="M9 7V6a3 3 0 0 1 6 0v1"/></svg></a>
+    </div>
+  </div>
+  <nav class="wadah" aria-label="Menu utama">
+    <ul class="menu">
+      <li><a href="#produk" style="color:var(--biru);font-weight:700;">Semua Laptop</a></li>
+      <li><a href="#pelajar">Pelajar</a></li>
+      <li><a href="#pekerjaan">Pekerjaan</a></li>
+      <li><a href="#gaming">Gaming</a></li>
+      <li><a href="#kreator">Kreator</a></li>
+      <li><a href="#">Aksesoris</a></li>
+      <li><a href="#layanan">Layanan</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#">Event &amp; Promo</a></li>
+      <li class="pemisah" aria-hidden="true"></li>
+      <li><a href="#">Toko</a></li>
+      <li><a href="#">Bisnis</a></li>
+      <li><a href="#">Edukasi</a></li>
+      <li><a href="#">Members</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="beranda" class="hero-slider-section">
+    <!-- Background Slider (Bootstrap Carousel) -->
+    <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade hero-carousel" data-bs-ride="carousel" data-bs-interval="4000">
+      
+      <!-- Indikator Slide (Titik di bawah) -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <!-- SLIDE 1: Laptop Kerja & Belajar -->
+        <div class="carousel-item active">
+          <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1920&q=80" onerror="this.onerror=null; this.src='image/macbook.jpg'" class="d-block w-100 hero-slide-img" alt="Promo Laptop Modern - NusaLaptop">
+        </div>
+        <!-- SLIDE 2: Laptop Gaming -->
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=1920&q=80" onerror="this.onerror=null; this.src='image/LEGION.jpg'" class="d-block w-100 hero-slide-img" alt="Laptop Gaming Performa Tinggi - NusaLaptop">
+        </div>
+        <!-- SLIDE 3: Laptop Kreator & Bisnis -->
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1920&q=80" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1920&q=80'" class="d-block w-100 hero-slide-img" alt="Laptop Kreator & Profesional - NusaLaptop">
+        </div>
+      </div>
+
+      <!-- Tombol Panah Kiri (Previous) -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev" aria-label="Previous">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <!-- Tombol Panah Kanan (Next) -->
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next" aria-label="Next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- KATEGORI & SEMUA LAPTOP -->
+  <section class="wadah bagian" id="produk">
+    <h2>Kategori &amp; Rekomendasi Laptop</h2>
+    <p class="intro">Arahkan kursor ke kartu laptop mana saja di bawah untuk melihat spesifikasi detail Layar, Chipset, GPU RTX, dan RAM DDR.</p>
+    <ul class="kategori">
+      <li><a href="#pelajar">Pelajar</a></li>
+      <li><a href="#pekerjaan">Pekerjaan</a></li>
+      <li><a href="#gaming">Gaming</a></li>
+      <li><a href="#kreator">Kreator</a></li>
+    </ul>
+  </section>
+
+  <!-- KATEGORI 1: PELAJAR -->
+  <section class="wadah bagian" id="pelajar">
+    <h2>Laptop untuk pelajar</h2>
+    <p class="intro">Ringan dan awet untuk kuliah, tugas, dan belajar online. Sorot kartu untuk melihat spesifikasinya.</p>
+    <div class="grid">
+      <article class="kartu" data-id="pelajar-1">
+        <div class="foto">
+          <span class="badge-kategori">Pelajar</span>
+          <img src="https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=600&q=80" alt="Nusa Belajar 14" loading="lazy">
+          <div class="foto-hover-hint">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/></svg>
+            <span>Sorot spek</span>
+          </div>
+        </div>
+
+        <div class="kartu-header">
+          <h3>Nusa Belajar 14</h3>
+          <span class="kartu-harga">Rp 5.499.000</span>
+        </div>
+        <p class="kartu-deskripsi">Layar 14 inci, bodi ringan, baterai tahan seharian.</p>
+
+        <div class="spek-ringkas">
+          <span class="chip-spek" data-spek="layar" title="Layar"><i class="icon">🖥️</i> 14" FHD IPS</span>
+          <span class="chip-spek" data-spek="chipset" title="Chipset"><i class="icon">⚙️</i> Core i3-1215U</span>
+          <span class="chip-spek" data-spek="gpu" title="Grafis"><i class="icon">🎮</i> Intel UHD</span>
+          <span class="chip-spek" data-spek="ram" title="RAM"><i class="icon">⚡</i> 8GB DDR4</span>
+        </div>
+
+        <div class="kartu-aksi">
+          <button class="tombol-kartu" data-buka-modal data-laptop="pelajar-1">Lihat detail</button>
+          <button class="tombol-spek-toggle" title="Tampilkan spesifikasi di HP">🔍 Spek</button>
+        </div>
+
+        <!-- Panel Spesifikasi Ringkas -->
+        <div class="panel-spek" role="region" aria-label="Spesifikasi Nusa Belajar 14">
+          <div class="panel-spek-kotak">
+            <div class="panel-spek-head">
+              <span class="panel-spek-title">⚡ Spek Ringkas</span>
+              <span class="garansi-tag">🛡️ Garansi 2 Thn</span>
+            </div>
+
+            <div class="spek-grid">
+              <div class="spek-item" data-komponen="layar">
+                <span class="spek-icon">🖥️</span>
+                <span class="spek-label">Layar</span>
+                <span class="spek-val">14.0" FHD IPS 60Hz</span>
+              </div>
+              <div class="spek-item" data-komponen="chipset">
+                <span class="spek-icon">⚙️</span>
+                <span class="spek-label">CPU</span>
+                <span class="spek-val">Core™ i3-1215U</span>
+              </div>
+              <div class="spek-item" data-komponen="gpu">
+                <span class="spek-icon">🎮</span>
+                <span class="spek-label">GPU</span>
+                <span class="spek-val">Intel® UHD Graphics</span>
+              </div>
+              <div class="spek-item" data-komponen="ram">
+                <span class="spek-icon">⚡</span>
+                <span class="spek-label">RAM</span>
+                <span class="spek-val">8 GB DDR4-3200</span>
+              </div>
+              <div class="spek-item" data-komponen="storage">
+                <span class="spek-icon">💾</span>
+                <span class="spek-label">SSD</span>
+                <span class="spek-val">256 GB NVMe Gen 3</span>
+              </div>
+              <div class="spek-item" data-komponen="baterai">
+                <span class="spek-icon">🔋</span>
+                <span class="spek-label">Baterai</span>
+                <span class="spek-val">42 Wh (Tahan 8 Jam)</span>
+              </div>
+            </div>
+
+            <div class="panel-spek-footer">
+              <button class="btn-detail-modal" data-buka-modal data-laptop="pelajar-1">Lihat Spek Lengkap &rarr;</button>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="kartu" data-id="pelajar-2">
+        <div class="foto">
+          <span class="badge-kategori">Mahasiswa</span>
+          <img src="https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=600&q=80" alt="Nusa Kampus 15" loading="lazy">
+          <div class="foto-hover-hint">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/></svg>
+            <span>Sorot spek</span>
+          </div>
+        </div>
+
+        <div class="kartu-header">
+          <h3>Nusa Kampus 15</h3>
+          <span class="kartu-harga">Rp 6.299.000</span>
+        </div>
+        <p class="kartu-deskripsi">Layar lega untuk mengetik tugas dan presentasi kuliah.</p>
+
+        <div class="spek-ringkas">
+          <span class="chip-spek" data-spek="layar" title="Layar"><i class="icon">🖥️</i> 15.6" FHD IPS</span>
+          <span class="chip-spek" data-spek="chipset" title="Chipset"><i class="icon">⚙️</i> Ryzen 5 7520U</span>
+          <span class="chip-spek" data-spek="gpu" title="Grafis"><i class="icon">🎮</i> Radeon 610M</span>
+          <span class="chip-spek" data-spek="ram" title="RAM"><i class="icon">⚡</i> 16GB LPDDR5</span>
+        </div>
+
+        <div class="kartu-aksi">
+          <button class="tombol-kartu" data-buka-modal data-laptop="pelajar-2">Lihat detail</button>
+          <button class="tombol-spek-toggle" title="Tampilkan spesifikasi di HP">🔍 Spek</button>
+        </div>
+
+        <!-- Panel Spesifikasi Ringkas -->
+        <div class="panel-spek" role="region" aria-label="Spesifikasi Nusa Kampus 15">
+          <div class="panel-spek-kotak">
+            <div class="panel-spek-head">
+              <span class="panel-spek-title">⚡ Spek Ringkas</span>
+              <span class="garansi-tag">🛡️ Garansi 2 Thn</span>
+            </div>
+
+            <div class="spek-grid">
+              <div class="spek-item" data-komponen="layar">
+                <span class="spek-icon">🖥️</span>
+                <span class="spek-label">Layar</span>
+                <span class="spek-val">15.6" FHD IPS 60Hz</span>
+              </div>
+              <div class="spek-item" data-komponen="chipset">
+                <span class="spek-icon">⚙️</span>
+                <span class="spek-label">CPU</span>
+                <span class="spek-val">Ryzen™ 5 7520U</span>
+              </div>
+              <div class="spek-item" data-komponen="gpu">
+                <span class="spek-icon">🎮</span>
+                <span class="spek-label">GPU</span>
+                <span class="spek-val">Radeon™ 610M</span>
+              </div>
+              <div class="spek-item" data-komponen="ram">
+                <span class="spek-icon">⚡</span>
+                <span class="spek-label">RAM</span>
+                <span class="spek-val">16 GB LPDDR5-5500</span>
+              </div>
+              <div class="spek-item" data-komponen="storage">
+                <span class="spek-icon">💾</span>
+                <span class="spek-label">SSD</span>
+                <span class="spek-val">512 GB NVMe Gen 4</span>
+              </div>
+              <div class="spek-item" data-komponen="baterai">
+                <span class="spek-icon">🔋</span>
+                <span class="spek-label">Baterai</span>
+                <span class="spek-val">50 Wh (Tahan 10 Jam)</span>
+              </div>
+            </div>
+
+            <div class="panel-spek-footer">
+              <button class="btn-detail-modal" data-buka-modal data-laptop="pelajar-2">Lihat Spek Lengkap &rarr;</button>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="kartu" data-id="pelajar-3">
+        <div class="foto">
+          <span class="badge-kategori">2-in-1 Stylus</span>
+          <img src="https://images.unsplash.com/photo-1577760258779-e787a1733016?auto=format&fit=crop&w=600&q=80" alt="Nusa Flip 13" loading="lazy">
+          <div class="foto-hover-hint">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/></svg>
+            <span>Sorot spek</span>
+          </div>
+        </div>
+
+        <div class="kartu-header">
+          <h3>Nusa Flip 13</h3>
+          <span class="kartu-harga">Rp 7.899.000</span>
+        </div>
+        <p class="kartu-deskripsi">Layar bisa dilipat 360° untuk mencatat dengan stylus.</p>
+
+        <div class="spek-ringkas">
+          <span class="chip-spek" data-spek="layar" title="Layar"><i class="icon">🖥️</i> 13.3" Touch WUXGA</span>
+          <span class="chip-spek" data-spek="chipset" title="Chipset"><i class="icon">⚙️</i> Core i5-1335U</span>
+          <span class="chip-spek" data-spek="gpu" title="Grafis"><i class="icon">🎮</i> Iris Xe 80EU</span>
+          <span class="chip-spek" data-spek="ram" title="RAM"><i class="icon">⚡</i> 16GB LPDDR5</span>
+        </div>
+
+        <div class="kartu-aksi">
+          <button class="tombol-kartu" data-buka-modal data-laptop="pelajar-3">Lihat detail</button>
+          <button class="tombol-spek-toggle" title="Tampilkan spesifikasi di HP">🔍 Spek</button>
+        </div>
+
+        <!-- Panel Spesifikasi Ringkas -->
+        <div class="panel-spek" role="region" aria-label="Spesifikasi Nusa Flip 13">
+          <div class="panel-spek-kotak">
+            <div class="panel-spek-head">
+              <span class="panel-spek-title">⚡ Spek Ringkas</span>
+              <span class="garansi-tag">🛡️ Garansi 2 Thn</span>
+            </div>
+
+            <div class="spek-grid">
+              <div class="spek-item" data-komponen="layar">
+                <span class="spek-icon">🖥️</span>
+                <span class="spek-label">Layar</span>
+                <span class="spek-val">13.3" WUXGA Touch 360°</span>
+              </div>
+              <div class="spek-item" data-komponen="chipset">
+                <span class="spek-icon">⚙️</span>
+                <span class="spek-label">CPU</span>
+                <span class="spek-val">Core™ i5-1335U</span>
+              </div>
+              <div class="spek-item" data-komponen="gpu">
+                <span class="spek-icon">🎮</span>
+                <span class="spek-label">GPU</span>
+                <span class="spek-val">Intel® Iris® Xe</span>
+              </div>
+              <div class="spek-item" data-komponen="ram">
+                <span class="spek-icon">⚡</span>
+                <span class="spek-label">RAM</span>
+                <span class="spek-val">16 GB LPDDR5-4800</span>
+              </div>
+              <div class="spek-item" data-komponen="storage">
+                <span class="spek-icon">💾</span>
+                <span class="spek-label">SSD</span>
+                <span class="spek-val">512 GB NVMe Gen 4</span>
+              </div>
+              <div class="spek-item" data-komponen="baterai">
+                <span class="spek-icon">🔋</span>
+                <span class="spek-label">Baterai</span>
+                <span class="spek-val">54 Wh (Tahan 11 Jam)</span>
+              </div>
+            </div>
+
+            <div class="panel-spek-footer">
+              <button class="btn-detail-modal" data-buka-modal data-laptop="pelajar-3">Lihat Spek Lengkap &rarr;</button>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- KATEGORI 2: PEKERJAAN -->
+  <section class="wadah bagian" id="pekerjaan">
+    <h2>Laptop untuk pekerjaan</h2>
+    <p class="intro">Tipis, cepat, dan nyaman dibawa ke kantor atau rapat. Sorot kartu untuk melihat spesifikasinya.</p>
+    <div class="grid">
+      <article class="kartu" data-id="pekerjaan-1">
+        <div class="foto">
+          <span class="badge-kategori">Bisnis AI</span>
+          <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80" alt="Nusa Kerja Pro 14" loading="lazy">
+          <div class="foto-hover-hint">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/></svg>
+            <span>Sorot spek</span>
+          </div>
+        </div>
+
+        <div class="kartu-header">
+          <h3>Nusa Kerja Pro 14</h3>
+          <span class="kartu-harga">Rp 11.499.000</span>
+        </div>
+        <p class="kartu-deskripsi">Performa stabil untuk dokumen, spreadsheet, dan video call.</p>
+
+        <div class="spek-ringkas">
+          <span class="chip-spek" data-spek="layar" title="Layar"><i class="icon">🖥️</i> 14" 2.2K IPS sRGB</span>
+          <span class="chip-spek" data-spek="chipset" title="Chipset"><i class="icon">⚙️</i> Ultra 5 125H AI</span>
+          <span class="chip-spek" data-spek="gpu" title="Grafis"><i class="icon">🎮</i> Intel Arc Graphics</span>
+          <span class="chip-spek" data-spek="ram" title="RAM"><i class="icon">⚡</i> 16GB LPDDR5X</span>
+        </div>
+
+        <div class="kartu-aksi">
+          <button class="tombol-kartu" data-buka-modal data-laptop="pekerjaan-1">Lihat detail</button>
+          <button class="tombol-spek-toggle" title="Tampilkan spesifikasi di HP">🔍 Spek</button>
+        </div>
+
+        <!-- Panel Spesifikasi Ringkas -->
+        <div class="panel-spek" role="region" aria-label="Spesifikasi Nusa Kerja Pro 14">
+          <div class="panel-spek-kotak">
+            <div class="panel-spek-head">
+              <span class="panel-spek-title">⚡ Spek Ringkas</span>
+              <span class="garansi-tag">🛡️ Garansi 3 Thn</span>
+            </div>
+
+            <div class="spek-grid">
+              <div class="spek-item" data-komponen="layar">
+                <span class="spek-icon">🖥️</span>
+                <span class="spek-label">Layar</span>
+                <span class="spek-val">14.0" 2.2K IPS 100% sRGB</span>
+              </div>
+              <div class="spek-item" data-komponen="chipset">
+                <span class="spek-icon">⚙️</span>
+                <span class="spek-label">CPU</span>
+                <span class="spek-val">Ultra 5 125H AI NPU</span>
+              </div>
+              <div class="spek-item" data-komponen="gpu">
+                <span class="spek-icon">🎮</span>
+                <span class="spek-label">GPU</span>
+                <span class="spek-val">Intel® Arc™ Graphics</span>
+              </div>
+              <div class="spek-item" data-komponen="ram">
+                <span class="spek-icon">⚡</span>
+                <span class="spek-label">RAM</span>
+                <span class="spek-val">16 GB LPDDR5X-7467</span>
+              </div>
+              <div class="spek-item" data-komponen="storage">
+                <span class="spek-icon">💾</span>
+                <span class="spek-label">SSD</span>
+                <span class="spek-val">512 GB NVMe Gen 4</span>
+              </div>
+              <div class="spek-item" data-komponen="baterai">
+                <span class="spek-icon">🔋</span>
+                <span class="spek-label">Baterai</span>
+                <span class="spek-val">65 Wh (Tahan 14 Jam)</span>
+              </div>
+            </div>
+
+            <div class="panel-spek-footer">
+              <button class="btn-detail-modal" data-buka-modal data-laptop="pekerjaan-1">Lihat Spek Lengkap &rarr;</button>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="kartu" data-id="pekerjaan-2">
+        <div class="foto">
+          <span class="badge-kategori">Kantor & Akuntansi</span>
+          <img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=600&q=80" alt="Nusa Bisnis 15" loading="lazy">
+          <div class="foto-hover-hint">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/></svg>
+            <span>Sorot spek</span>
+          </div>
+        </div>
+
+        <div class="kartu-header">
+          <h3>Nusa Bisnis 15</h3>
+          <span class="kartu-harga">Rp 9.999.000</span>
+        </div>
+        <p class="kartu-deskripsi">Keyboard numerik dan port lengkap untuk kerja harian.</p>
+
+        <div class="spek-ringkas">
+          <span class="chip-spek" data-spek="layar" title="Layar"><i class="icon">🖥️</i> 15.6" FHD IPS</span>
+          <span class="chip-spek" data-spek="chipset" title="Chipset"><i class="icon">⚙️</i> Ryzen 7 7730U</span>
+          <span class="chip-spek" data-spek="gpu" title="Grafis"><i class="icon">🎮</i> Radeon Vega 8</span>
+          <span class="chip-spek" data-spek="ram" title="RAM"><i class="icon">⚡</i> 16GB DDR4</span>
+        </div>
+
+        <div class="kartu-aksi">
+          <button class="tombol-kartu" data-buka-modal data-laptop="pekerjaan-2">Lihat detail</button>
+          <button class="tombol-spek-toggle" title="Tampilkan spesifikasi di HP">🔍 Spek</button>
+        </div>
+
+        <!-- Panel Spesifikasi Ringkas -->
+        <div class="panel-spek" role="region" aria-label="Spesifikasi Nusa Bisnis 15">
+          <div class="panel-spek-kotak">
+            <div class="panel-spek-head">
+              <span class="panel-spek-title">⚡ Spek Ringkas</span>
+              <span class="garansi-tag">🛡️ Garansi 3 Thn</span>
+            </div>
+
+            <div class="spek-grid">
+              <div class="spek-item" data-komponen="layar">
+                <span class="spek-icon">🖥️</span>
+                <span class="spek-label">Layar</span>
+                <span class="spek-val">15.6" FHD IPS Anti-Glare</span>
+              </div>
+              <div class="spek-item" data-komponen="chipset">
+                <span class="spek-icon">⚙️</span>
+                <span class="spek-label">CPU</span>
+                <span class="spek-val">Ryzen™ 7 7730U</span>
+              </div>
+              <div class="spek-item" data-komponen="gpu">
+                <span class="spek-icon">🎮</span>
+                <span class="spek-label">GPU</span>
+                <span class="spek-val">AMD Radeon™ Graphics</span>
+              </div>
+              <div class="spek-item" data-komponen="ram">
+                <span class="spek-icon">⚡</span>
+                <span class="spek-label">RAM</span>
+                <span class="spek-val">16 GB DDR4-3200</span>
+              </div>
+              <div class="spek-item" data-komponen="storage">
+                <span class="spek-icon">💾</span>
+                <span class="spek-label">SSD</span>
+                <span class="spek-val">1 TB NVMe Gen 4</span>
+              </div>
+              <div class="spek-item" data-komponen="baterai">
+                <span class="spek-icon">🔋</span>
+                <span class="spek-label">Baterai</span>
+                <span class="spek-val">57 Wh (Tahan 12 Jam)</span>
+              </div>
+            </div>
+
+            <div class="panel-spek-footer">
+              <button class="btn-detail-modal" data-buka-modal data-laptop="pekerjaan-2">Lihat Spek Lengkap &rarr;</button>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="kartu" data-id="pekerjaan-3">
+        <div class="foto">
+          <span class="badge-kategori">Ultra-Ringan</span>
+          <img src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=600&q=80" alt="Nusa Ultra 13" loading="lazy">
+          <div class="foto-hover-hint">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/></svg>
+            <span>Sorot spek</span>
+          </div>
+        </div>
+
+        <div class="kartu-header">
+          <h3>Nusa Ultra 13</h3>
+          <span class="kartu-harga">Rp 14.299.000</span>
+        </div>
+        <p class="kartu-deskripsi">Sangat tipis dan ringan untuk yang sering bepergian.</p>
+
+        <div class="spek-ringkas">
+          <span class="chip-spek" data-spek="layar" title="Layar"><i class="icon">🖥️</i> 13.3" 2.8K OLED 90Hz</span>
+          <span class="chip-spek" data-spek="chipset" title="Chipset"><i class="icon">⚙️</i> Core i7-1360P</span>
+          <span class="chip-spek" data-spek="gpu" title="Grafis"><i class="icon">🎮</i> Iris Xe 96EU</span>
+          <span class="chip-spek" data-spek="ram" title="RAM"><i class="icon">⚡</i> 32GB LPDDR5</span>
+        </div>
+
+        <div class="kartu-aksi">
+          <button class="tombol-kartu" data-buka-modal data-laptop="pekerjaan-3">Lihat detail</button>
+          <button class="tombol-spek-toggle" title="Tampilkan spesifikasi di HP">🔍 Spek</button>
+        </div>
+
+        <!-- Panel Spesifikasi Ringkas -->
+        <div class="panel-spek" role="region" aria-label="Spesifikasi Nusa Ultra 13">
+          <div class="panel-spek-kotak">
+            <div class="panel-spek-head">
+              <span class="panel-spek-title">⚡ Spek Ringkas</span>
+              <span class="garansi-tag">🛡️ Garansi 2 Thn</span>
+            </div>
+
+            <div class="spek-grid">
+              <div class="spek-item" data-komponen="layar">
+                <span class="spek-icon">🖥️</span>
+                <span class="spek-label">Layar</span>
+                <span class="spek-val">13.3" 2.8K OLED 90Hz</span>
+              </div>
+              <div class="spek-item" data-komponen="chipset">
+                <span class="spek-icon">⚙️</span>
+                <span class="spek-label">CPU</span>
+                <span class="spek-val">Core™ i7-1360P Evo</span>
+              </div>
+              <div class="spek-item" data-komponen="gpu">
+                <span class="spek-icon">🎮</span>
+                <span class="spek-label">GPU</span>
+                <span class="spek-val">Intel® Iris® Xe (96 EU)</span>
+              </div>
+              <div class="spek-item" data-komponen="ram">
+                <span class="spek-icon">⚡</span>
+                <span class="spek-label">RAM</span>
+                <span class="spek-val">32 GB LPDDR5-5200</span>
+              </div>
+              <div class="spek-item" data-komponen="storage">
+                <span class="spek-icon">💾</span>
+                <span class="spek-label">SSD</span>
+                <span class="spek-val">1 TB NVMe Gen 4x4</span>
+              </div>
+              <div class="spek-item" data-komponen="baterai">
+                <span class="spek-icon">🔋</span>
+                <span class="spek-label">Baterai</span>
+                <span class="spek-val">67 Wh (Bobot 990g)</span>
+              </div>
+            </div>
+
+            <div class="panel-spek-footer">
+              <button class="btn-detail-modal" data-buka-modal data-laptop="pekerjaan-3">Lihat Spek Lengkap &rarr;</button>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- KATEGORI 3: GAMING -->
+  <section class="wadah bagian" id="gaming">
+    <h2>Laptop gaming</h2>
+    <p class="intro">Layar refresh rate tinggi, grafis NVIDIA RTX, dan pendingin besar untuk main game lancar. Sorot kartu untuk melihat spesifikasinya.</p>
+    <div class="grid">
+      <article class="kartu" data-id="gaming-1">
+        <div class="foto">
+          <span class="badge-kategori">Gaming Esports</span>
+          <img src="https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=600&q=80" alt="Nusa Game 15" loading="lazy">
+          <div class="foto-hover-hint">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/></svg>
+            <span>Sorot spek</span>
+          </div>
+        </div>
+
+        <div class="kartu-header">
+          <h3>Nusa Game 15</h3>
+          <span class="kartu-harga">Rp 10.999.000</span>
+        </div>
+        <p class="kartu-deskripsi">Cocok untuk game populer dengan pengaturan tinggi.</p>
+
+        <div class="spek-ringkas">
+          <span class="chip-spek" data-spek="layar" title="Layar"><i class="icon">🖥️</i> 15.6" 144Hz IPS</span>
+          <span class="chip-spek" data-spek="chipset" title="Chipset"><i class="icon">⚙️</i> Ryzen 5 7535HS</span>
+          <span class="chip-spek" data-spek="gpu" title="Grafis"><i class="icon">🎮</i> RTX 3050 6GB</span>
+          <span class="chip-spek" data-spek="ram" title="RAM"><i class="icon">⚡</i> 16GB DDR5</span>
+        </div>
+
+        <div class="kartu-aksi">
+          <button class="tombol-kartu" data-buka-modal data-laptop="gaming-1">Lihat detail</button>
+          <button class="tombol-spek-toggle" title="Tampilkan spesifikasi di HP">🔍 Spek</button>
+        </div>
+
+        <!-- Panel Spesifikasi Ringkas -->
+        <div class="panel-spek" role="region" aria-label="Spesifikasi Nusa Game 15">
+          <div class="panel-spek-kotak">
+            <div class="panel-spek-head">
+              <span class="panel-spek-title">⚡ Spek Ringkas</span>
+              <span class="garansi-tag">🛡️ Garansi 2 Thn</span>
+            </div>
+
+            <div class="spek-grid">
+              <div class="spek-item" data-komponen="layar">
+                <span class="spek-icon">🖥️</span>
+                <span class="spek-label">Layar</span>
+                <span class="spek-val">15.6" FHD IPS 144Hz</span>
+              </div>
+              <div class="spek-item" data-komponen="chipset">
+                <span class="spek-icon">⚙️</span>
+                <span class="spek-label">CPU</span>
+                <span class="spek-val">Ryzen™ 5 7535HS</span>
+              </div>
+              <div class="spek-item" data-komponen="gpu">
+                <span class="spek-icon">🎮</span>
+                <span class="spek-label">GPU</span>
+                <span class="spek-val">RTX™ 3050 6GB GDDR6</span>
+              </div>
+              <div class="spek-item" data-komponen="ram">
+                <span class="spek-icon">⚡</span>
+                <span class="spek-label">RAM</span>
+                <span class="spek-val">16 GB DDR5-4800</span>
+              </div>
+              <div class="spek-item" data-komponen="storage">
+                <span class="spek-icon">💾</span>
+                <span class="spek-label">SSD</span>
+                <span class="spek-val">512 GB NVMe Gen 4</span>
+              </div>
+              <div class="spek-item" data-komponen="baterai">
+                <span class="spek-icon">🔋</span>
+                <span class="spek-label">Baterai</span>
+                <span class="spek-val">60 Wh (Charger 170W)</span>
+              </div>
+            </div>
+
+            <div class="panel-spek-footer">
+              <button class="btn-detail-modal" data-buka-modal data-laptop="gaming-1">Lihat Spek Lengkap &rarr;</button>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="kartu" data-id="gaming-2">
+        <div class="foto">
+          <span class="badge-kategori">Legion Gaming</span>
+          <img src="image/LEGION.jpg" alt="Nusa Game Pro 16" class="img-contain" loading="lazy">
+          <div class="foto-hover-hint">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/></svg>
+            <span>Sorot spek</span>
+          </div>
+        </div>
+
+        <div class="kartu-header">
+          <h3>Nusa Game Pro 16</h3>
+          <span class="kartu-harga">Rp 21.499.000</span>
+        </div>
+        <p class="kartu-deskripsi">Performa maksimal untuk game berat AAA dan streaming.</p>
+
+        <div class="spek-ringkas">
+          <span class="chip-spek" data-spek="layar" title="Layar"><i class="icon">🖥️</i> 16" WQXGA 165Hz</span>
+          <span class="chip-spek" data-spek="chipset" title="Chipset"><i class="icon">⚙️</i> i7-13700HX HM770</span>
+          <span class="chip-spek" data-spek="gpu" title="Grafis"><i class="icon">🎮</i> RTX 4060 140W</span>
+          <span class="chip-spek" data-spek="ram" title="RAM"><i class="icon">⚡</i> 16GB DDR5 Dual</span>
+        </div>
+
+        <div class="kartu-aksi">
+          <button class="tombol-kartu" data-buka-modal data-laptop="gaming-2">Lihat detail</button>
+          <button class="tombol-spek-toggle" title="Tampilkan spesifikasi di HP">🔍 Spek</button>
+        </div>
+
+        <!-- Panel Spesifikasi Ringkas -->
+        <div class="panel-spek" role="region" aria-label="Spesifikasi Nusa Game Pro 16">
+          <div class="panel-spek-kotak">
+            <div class="panel-spek-head">
+              <span class="panel-spek-title">⚡ Spek Ringkas</span>
+              <span class="garansi-tag">🛡️ Garansi 3 Thn</span>
+            </div>
+
+            <div class="spek-grid">
+              <div class="spek-item" data-komponen="layar">
+                <span class="spek-icon">🖥️</span>
+                <span class="spek-label">Layar</span>
+                <span class="spek-val">16.0" 2.5K 165Hz G-SYNC</span>
+              </div>
+              <div class="spek-item" data-komponen="chipset">
+                <span class="spek-icon">⚙️</span>
+                <span class="spek-label">CPU</span>
+                <span class="spek-val">Core™ i7-13700HX</span>
+              </div>
+              <div class="spek-item" data-komponen="gpu">
+                <span class="spek-icon">🎮</span>
+                <span class="spek-label">GPU</span>
+                <span class="spek-val">RTX™ 4060 8GB (140W)</span>
+              </div>
+              <div class="spek-item" data-komponen="ram">
+                <span class="spek-icon">⚡</span>
+                <span class="spek-label">RAM</span>
+                <span class="spek-val">16 GB DDR5-5200</span>
+              </div>
+              <div class="spek-item" data-komponen="storage">
+                <span class="spek-icon">💾</span>
+                <span class="spek-label">SSD</span>
+                <span class="spek-val">1 TB NVMe Gen 4</span>
+              </div>
+              <div class="spek-item" data-komponen="baterai">
+                <span class="spek-icon">🔋</span>
+                <span class="spek-label">Baterai</span>
+                <span class="spek-val">80 Wh (ColdFront 5.0)</span>
+              </div>
+            </div>
+
+            <div class="panel-spek-footer">
+              <button class="btn-detail-modal" data-buka-modal data-laptop="gaming-2">Lihat Spek Lengkap &rarr;</button>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="kartu" data-id="gaming-3">
+        <div class="foto">
+          <span class="badge-kategori">Portabel Gaming</span>
+          <img src="https://images.unsplash.com/photo-1593640495390-1ff7c3f60e9b?auto=format&fit=crop&w=600&q=80" alt="Nusa Game Lite 14" loading="lazy">
+          <div class="foto-hover-hint">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/></svg>
+            <span>Sorot spek</span>
+          </div>
+        </div>
+
+        <div class="kartu-header">
+          <h3>Nusa Game Lite 14</h3>
+          <span class="kartu-harga">Rp 14.899.000</span>
+        </div>
+        <p class="kartu-deskripsi">Lebih ringkas dan ringan, tetap kuat untuk game esports.</p>
+
+        <div class="spek-ringkas">
+          <span class="chip-spek" data-spek="layar" title="Layar"><i class="icon">🖥️</i> 14" 120Hz 100% sRGB</span>
+          <span class="chip-spek" data-spek="chipset" title="Chipset"><i class="icon">⚙️</i> Ryzen 7 7735HS</span>
+          <span class="chip-spek" data-spek="gpu" title="Grafis"><i class="icon">🎮</i> RTX 4050 6GB</span>
+          <span class="chip-spek" data-spek="ram" title="RAM"><i class="icon">⚡</i> 16GB LPDDR5</span>
+        </div>
+
+        <div class="kartu-aksi">
+          <button class="tombol-kartu" data-buka-modal data-laptop="gaming-3">Lihat detail</button>
+          <button class="tombol-spek-toggle" title="Tampilkan spesifikasi di HP">🔍 Spek</button>
+        </div>
+
+        <!-- Panel Spesifikasi Ringkas -->
+        <div class="panel-spek" role="region" aria-label="Spesifikasi Nusa Game Lite 14">
+          <div class="panel-spek-kotak">
+            <div class="panel-spek-head">
+              <span class="panel-spek-title">⚡ Spek Ringkas</span>
+              <span class="garansi-tag">🛡️ Garansi 2 Thn</span>
+            </div>
+
+            <div class="spek-grid">
+              <div class="spek-item" data-komponen="layar">
+                <span class="spek-icon">🖥️</span>
+                <span class="spek-label">Layar</span>
+                <span class="spek-val">14.0" FHD IPS 120Hz</span>
+              </div>
+              <div class="spek-item" data-komponen="chipset">
+                <span class="spek-icon">⚙️</span>
+                <span class="spek-label">CPU</span>
+                <span class="spek-val">Ryzen™ 7 7735HS</span>
+              </div>
+              <div class="spek-item" data-komponen="gpu">
+                <span class="spek-icon">🎮</span>
+                <span class="spek-label">GPU</span>
+                <span class="spek-val">RTX™ 4050 6GB (85W)</span>
+              </div>
+              <div class="spek-item" data-komponen="ram">
+                <span class="spek-icon">⚡</span>
+                <span class="spek-label">RAM</span>
+                <span class="spek-val">16 GB LPDDR5-6400</span>
+              </div>
+              <div class="spek-item" data-komponen="storage">
+                <span class="spek-icon">💾</span>
+                <span class="spek-label">SSD</span>
+                <span class="spek-val">512 GB NVMe Gen 4</span>
+              </div>
+              <div class="spek-item" data-komponen="baterai">
+                <span class="spek-icon">🔋</span>
+                <span class="spek-label">Baterai</span>
+                <span class="spek-val">70 Wh (Tahan 9 Jam)</span>
+              </div>
+            </div>
+
+            <div class="panel-spek-footer">
+              <button class="btn-detail-modal" data-buka-modal data-laptop="gaming-3">Lihat Spek Lengkap &rarr;</button>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- KATEGORI 4: KREATOR -->
+  <section class="wadah bagian" id="kreator">
+    <h2>Laptop untuk kreator</h2>
+    <p class="intro">Layar dengan warna akurat untuk edit foto, video, dan desain. Sorot kartu untuk melihat spesifikasinya.</p>
+    <div class="grid">
+      <article class="kartu" data-id="kreator-1">
+        <div class="foto">
+          <span class="badge-kategori">Kreator Konten</span>
+          <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=600&q=80" alt="Nusa Kreasi 14" loading="lazy">
+          <div class="foto-hover-hint">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/></svg>
+            <span>Sorot spek</span>
+          </div>
+        </div>
+
+        <div class="kartu-header">
+          <h3>Nusa Kreasi 14</h3>
+          <span class="kartu-harga">Rp 17.499.000</span>
+        </div>
+        <p class="kartu-deskripsi">Layar warna akurat untuk desain grafis dan edit foto profesional.</p>
+
+        <div class="spek-ringkas">
+          <span class="chip-spek" data-spek="layar" title="Layar"><i class="icon">🖥️</i> 14.5" 3K 120Hz IPS</span>
+          <span class="chip-spek" data-spek="chipset" title="Chipset"><i class="icon">⚙️</i> Core i7-13700H</span>
+          <span class="chip-spek" data-spek="gpu" title="Grafis"><i class="icon">🎮</i> RTX 4050 Studio</span>
+          <span class="chip-spek" data-spek="ram" title="RAM"><i class="icon">⚡</i> 32GB LPDDR5</span>
+        </div>
+
+        <div class="kartu-aksi">
+          <button class="tombol-kartu" data-buka-modal data-laptop="kreator-1">Lihat detail</button>
+          <button class="tombol-spek-toggle" title="Tampilkan spesifikasi di HP">🔍 Spek</button>
+        </div>
+
+        <!-- Panel Spesifikasi Ringkas -->
+        <div class="panel-spek" role="region" aria-label="Spesifikasi Nusa Kreasi 14">
+          <div class="panel-spek-kotak">
+            <div class="panel-spek-head">
+              <span class="panel-spek-title">⚡ Spek Ringkas</span>
+              <span class="garansi-tag">🛡️ Garansi 2 Thn</span>
+            </div>
+
+            <div class="spek-grid">
+              <div class="spek-item" data-komponen="layar">
+                <span class="spek-icon">🖥️</span>
+                <span class="spek-label">Layar</span>
+                <span class="spek-val">14.5" 3K 120Hz Delta E<1</span>
+              </div>
+              <div class="spek-item" data-komponen="chipset">
+                <span class="spek-icon">⚙️</span>
+                <span class="spek-label">CPU</span>
+                <span class="spek-val">Core™ i7-13700H</span>
+              </div>
+              <div class="spek-item" data-komponen="gpu">
+                <span class="spek-icon">🎮</span>
+                <span class="spek-label">GPU</span>
+                <span class="spek-val">RTX™ 4050 6GB Studio</span>
+              </div>
+              <div class="spek-item" data-komponen="ram">
+                <span class="spek-icon">⚡</span>
+                <span class="spek-label">RAM</span>
+                <span class="spek-val">32 GB LPDDR5-5200</span>
+              </div>
+              <div class="spek-item" data-komponen="storage">
+                <span class="spek-icon">💾</span>
+                <span class="spek-label">SSD</span>
+                <span class="spek-val">1 TB NVMe Gen 4</span>
+              </div>
+              <div class="spek-item" data-komponen="baterai">
+                <span class="spek-icon">🔋</span>
+                <span class="spek-label">Baterai</span>
+                <span class="spek-val">73 Wh (Tahan 11 Jam)</span>
+              </div>
+            </div>
+
+            <div class="panel-spek-footer">
+              <button class="btn-detail-modal" data-buka-modal data-laptop="kreator-1">Lihat Spek Lengkap &rarr;</button>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="kartu" data-id="kreator-2">
+        <div class="foto">
+          <span class="badge-kategori">MacBook Pro</span>
+          <img src="image/macbook.jpg" alt="Nusa Studio 16" class="img-contain" loading="lazy">
+          <div class="foto-hover-hint">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/></svg>
+            <span>Sorot spek</span>
+          </div>
+        </div>
+
+        <div class="kartu-header">
+          <h3>Nusa Studio 16</h3>
+          <span class="kartu-harga">Rp 35.999.000</span>
+        </div>
+        <p class="kartu-deskripsi">Tenaga besar untuk render video 4K/8K, 3D dan animasi tingkat studio.</p>
+
+        <div class="spek-ringkas">
+          <span class="chip-spek" data-spek="layar" title="Layar"><i class="icon">🖥️</i> 16.2" Liquid Retina XDR</span>
+          <span class="chip-spek" data-spek="chipset" title="Chipset"><i class="icon">⚙️</i> Apple M3 Pro 12C</span>
+          <span class="chip-spek" data-spek="gpu" title="Grafis"><i class="icon">🎮</i> 18-Core GPU Ray Tracing</span>
+          <span class="chip-spek" data-spek="ram" title="RAM"><i class="icon">⚡</i> 18GB Unified 150GB/s</span>
+        </div>
+
+        <div class="kartu-aksi">
+          <button class="tombol-kartu" data-buka-modal data-laptop="kreator-2">Lihat detail</button>
+          <button class="tombol-spek-toggle" title="Tampilkan spesifikasi di HP">🔍 Spek</button>
+        </div>
+
+        <!-- Panel Spesifikasi Ringkas -->
+        <div class="panel-spek" role="region" aria-label="Spesifikasi Nusa Studio 16">
+          <div class="panel-spek-kotak">
+            <div class="panel-spek-head">
+              <span class="panel-spek-title">⚡ Spek Ringkas</span>
+              <span class="garansi-tag">🛡️ Garansi Apple</span>
+            </div>
+
+            <div class="spek-grid">
+              <div class="spek-item" data-komponen="layar">
+                <span class="spek-icon">🖥️</span>
+                <span class="spek-label">Layar</span>
+                <span class="spek-val">16.2" Retina XDR 120Hz</span>
+              </div>
+              <div class="spek-item" data-komponen="chipset">
+                <span class="spek-icon">⚙️</span>
+                <span class="spek-label">CPU</span>
+                <span class="spek-val">Apple M3 Pro (12-Core)</span>
+              </div>
+              <div class="spek-item" data-komponen="gpu">
+                <span class="spek-icon">🎮</span>
+                <span class="spek-label">GPU</span>
+                <span class="spek-val">Apple 18-Core GPU</span>
+              </div>
+              <div class="spek-item" data-komponen="ram">
+                <span class="spek-icon">⚡</span>
+                <span class="spek-label">RAM</span>
+                <span class="spek-val">18 GB Unified Memory</span>
+              </div>
+              <div class="spek-item" data-komponen="storage">
+                <span class="spek-icon">💾</span>
+                <span class="spek-label">SSD</span>
+                <span class="spek-val">512 GB Superfast NVMe</span>
+              </div>
+              <div class="spek-item" data-komponen="baterai">
+                <span class="spek-icon">🔋</span>
+                <span class="spek-label">Baterai</span>
+                <span class="spek-val">100 Wh (Tahan 22 Jam)</span>
+              </div>
+            </div>
+
+            <div class="panel-spek-footer">
+              <button class="btn-detail-modal" data-buka-modal data-laptop="kreator-2">Lihat Spek Lengkap &rarr;</button>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="kartu" data-id="kreator-3">
+        <div class="foto">
+          <span class="badge-kategori">Lumina OLED Dial</span>
+          <img src="https://images.unsplash.com/photo-1572044162444-ad60f128bdea?auto=format&fit=crop&w=600&q=80" alt="Nusa Studio Touch 15" loading="lazy">
+          <div class="foto-hover-hint">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/></svg>
+            <span>Sorot spek</span>
+          </div>
+        </div>
+
+        <div class="kartu-header">
+          <h3>Nusa Studio Touch 15</h3>
+          <span class="kartu-harga">Rp 23.999.000</span>
+        </div>
+        <p class="kartu-deskripsi">Layar sentuh OLED 3.5K untuk menggambar langsung dengan stylus dan dial kontroler.</p>
+
+        <div class="spek-ringkas">
+          <span class="chip-spek" data-spek="layar" title="Layar"><i class="icon">🖥️</i> 15.6" 3.5K OLED Touch</span>
+          <span class="chip-spek" data-spek="chipset" title="Chipset"><i class="icon">⚙️</i> Ultra 7 155H NPU</span>
+          <span class="chip-spek" data-spek="gpu" title="Grafis"><i class="icon">🎮</i> RTX 4060 Studio</span>
+          <span class="chip-spek" data-spek="ram" title="RAM"><i class="icon">⚡</i> 32GB DDR5 5600</span>
+        </div>
+
+        <div class="kartu-aksi">
+          <button class="tombol-kartu" data-buka-modal data-laptop="kreator-3">Lihat detail</button>
+          <button class="tombol-spek-toggle" title="Tampilkan spesifikasi di HP">🔍 Spek</button>
+        </div>
+
+        <!-- Panel Spesifikasi Ringkas -->
+        <div class="panel-spek" role="region" aria-label="Spesifikasi Nusa Studio Touch 15">
+          <div class="panel-spek-kotak">
+            <div class="panel-spek-head">
+              <span class="panel-spek-title">⚡ Spek Ringkas</span>
+              <span class="garansi-tag">🛡️ Garansi 2 Thn</span>
+            </div>
+
+            <div class="spek-grid">
+              <div class="spek-item" data-komponen="layar">
+                <span class="spek-icon">🖥️</span>
+                <span class="spek-label">Layar</span>
+                <span class="spek-val">15.6" 3.5K OLED Touch</span>
+              </div>
+              <div class="spek-item" data-komponen="chipset">
+                <span class="spek-icon">⚙️</span>
+                <span class="spek-label">CPU</span>
+                <span class="spek-val">Ultra 7 155H AI NPU</span>
+              </div>
+              <div class="spek-item" data-komponen="gpu">
+                <span class="spek-icon">🎮</span>
+                <span class="spek-label">GPU</span>
+                <span class="spek-val">RTX™ 4060 8GB Studio</span>
+              </div>
+              <div class="spek-item" data-komponen="ram">
+                <span class="spek-icon">⚡</span>
+                <span class="spek-label">RAM</span>
+                <span class="spek-val">32 GB DDR5-5600</span>
+              </div>
+              <div class="spek-item" data-komponen="storage">
+                <span class="spek-icon">💾</span>
+                <span class="spek-label">SSD</span>
+                <span class="spek-val">1 TB NVMe Gen 4x4</span>
+              </div>
+              <div class="spek-item" data-komponen="baterai">
+                <span class="spek-icon">🔋</span>
+                <span class="spek-label">Baterai</span>
+                <span class="spek-val">75 Wh (Dial Touchpad)</span>
+              </div>
+            </div>
+
+            <div class="panel-spek-footer">
+              <button class="btn-detail-modal" data-buka-modal data-laptop="kreator-3">Lihat Spek Lengkap &rarr;</button>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  
+  <section class="wadah bagian section-keunggulan" id="layanan">
+    <div class="keunggulan-header">
+      <h2>Mengapa Belanja di NusaLaptop?</h2>
+      <p class="intro">Pengalaman belanja laptop terlengkap dengan jaminan orisinalitas dan layanan purnajual terpercaya.</p>
+    </div>
+
+    <div class="keunggulan-grid">
+      <div class="keunggulan-card">
+        <div class="keunggulan-icon">🛡️</div>
+        <h3>100% Garansi Resmi</h3>
+        <p>Jaminan unit original pabrik hingga 3 tahun dengan jaringan service center resmi di seluruh Indonesia.</p>
+      </div>
+
+      <div class="keunggulan-card">
+        <div class="keunggulan-icon">🚚</div>
+        <h3>Gratis Ongkir &amp; Packing Kayu</h3>
+        <p>Pengiriman aman ke seluruh Nusantara dilapisi packing kayu dan perlindungan asuransi penuh gratis.</p>
+      </div>
+
+      <div class="keunggulan-card">
+        <div class="keunggulan-icon">⚙️</div>
+        <h3>Siap Pakai &amp; Konsultasi Spek</h3>
+        <p>Gratis instalasi OS dan software penting, serta panduan memilih spesifikasi laptop dari tim teknisi.</p>
+      </div>
+
+      <div class="keunggulan-card">
+        <div class="keunggulan-icon">🔄</div>
+        <h3>14 Hari Jaminan Tukar Baru</h3>
+        <p>Tukar unit baru tanpa ribet jika terdapat kendala manufaktur dalam 14 hari pertama pemakaian.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================== -->
+  <!-- TANYA JAWAB (FAQ)                          -->
+  <!-- Menggunakan tag native <details> & <summary> -->
+  <!-- Ringan, mudah dipahami & tanpa JS rumit     -->
+  <!-- ========================================== -->
+  <section class="wadah bagian section-faq" id="faq">
+    <h2>Pertanyaan yang Sering Diajukan (FAQ)</h2>
+    <p class="intro">Jawaban seputar garansi, pengiriman, dan cara memilih laptop yang sesuai kebutuhan.</p>
+
+    <div class="faq-list">
+      <details class="faq-item" open>
+        <summary class="faq-tanya">
+          <span>Apakah semua laptop yang dijual 100% original dan bergaransi resmi?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </summary>
+        <div class="faq-jawab">
+          <p>Ya, NusaLaptop adalah official partner terdaftar. Semua unit baru, bersegel pabrik, dan memiliki garansi resmi dari brand masing-masing (Apple Authorised, Lenovo Indonesia, dsb) yang dapat diklaim di seluruh service center resmi.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-tanya">
+          <span>Bagaimana cara memilih spesifikasi laptop yang cocok?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </summary>
+        <div class="faq-jawab">
+          <p>Untuk belajar &amp; kuliah santai, prosesor Core i3/Ryzen 5 dengan RAM 8-16GB sudah sangat memadai. Untuk gaming dan edit video, pastikan memilih laptop dengan kartu grafis dedicated GeForce RTX dan pendingin dual-fan seperti seri Legion kami.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-tanya">
+          <span>Apakah bisa request upgrade RAM / SSD sebelum laptop dikirim?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </summary>
+        <div class="faq-jawab">
+          <p>Bisa! Untuk model yang mendukung slot upgrade, teknisi kami siap membantu pemasangan komponen baru original tanpa membatalkan garansi resmi Anda.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-tanya">
+          <span>Apakah pengiriman ke luar kota aman dari benturan?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </summary>
+        <div class="faq-jawab">
+          <p>Sangat aman. Setiap pengiriman ke luar kota otomatis dilapisi bubble wrap tebal, silica gel, dan packing kayu berstandar ekspedisi kargo serta dilindungi asuransi pengiriman.</p>
+        </div>
+      </details>
+    </div>
+  </section>
+</main>
+
+<!-- MODAL SPESIFIKASI LENGKAP -->
+<div class="modal fade" id="modalSpekDetail" tabindex="-1" aria-labelledby="modal-laptop-judul" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg modal-spek-dialog">
+    <div class="modal-content modal-content-spek">
+      <div class="modal-header modal-header-spek">
+        <div>
+          <span class="badge bg-warning text-dark mb-1" id="modal-laptop-kategori">Laptop</span>
+          <h3 class="modal-title" id="modal-laptop-judul">Nama Laptop</h3>
+        </div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body modal-body-spek">
+        <div class="modal-spek-layout">
+          <div class="modal-laptop-preview">
+            <img id="modal-laptop-img" src="" alt="Laptop Preview" class="modal-laptop-img">
+            <div class="modal-harga-box">
+              <div class="modal-harga-label">Harga Spesial NusaLaptop</div>
+              <div class="modal-harga-nilai" id="modal-laptop-harga">Rp 0</div>
+            </div>
+            <p id="modal-laptop-deskripsi" class="text-muted small text-center mb-0"></p>
+            <button class="tombol-kartu w-100 mt-2" onclick="alert('Produk berhasil ditambahkan ke keranjang belanja!')">🛍️ Beli Sekarang</button>
+          </div>
+          <div>
+            <h5 class="fw-bold mb-3 text-primary">Lembar Spesifikasi Teknis Lengkap</h5>
+            <table class="modal-tabel-spek">
+              <tbody id="modal-laptop-tabel-body">
+                <!-- Diisi oleh script.js -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<footer class="footer-modern">
+  <div class="wadah footer-grid">
+   <-- Kolom 1: Brand & Kontak -->
+    <div class="footer-kolom">
+      <div class="footer-brand">
+        <a href="#" class="logo footer-logo">Nusalaptop</a>
+        <span class="badge footer-badge">Official Partner</span>
+      </div>
+      <p class="footer-deskripsi">
+        Destinasi belanja laptop dan perangkat komputasi resmi di Indonesia. Menyediakan laptop bergaransi resmi untuk pelajar, profesional, gamer, hingga kreator konten.
+      </p>
+      <div class="footer-kontak-item">
+        <span>📍</span> Mall Teknologi Mangga Dua Lt. 3 No. 45, Jakarta Barat
+      </div>
+      <div class="footer-kontak-item">
+        <span>📞</span> Layanan CS: (021) 555-0188 / 0812-3456-7890
+      </div>
+      <div class="footer-kontak-item">
+        <span>⏰</span> Senin - Minggu: 09.00 - 21.00 WIB
+      </div>
+    </div>
+
+    <!-- Kolom 2: Navigasi Kategori -->
+    <div class="footer-kolom">
+      <h4 class="footer-judul">Kategori Laptop</h4>
+      <ul class="footer-link">
+        <li><a href="#pelajar">Laptop Pelajar &amp; Kuliah</a></li>
+        <li><a href="#pekerjaan">Laptop Kerja &amp; Bisnis</a></li>
+        <li><a href="#gaming">Laptop Gaming &amp; Esports</a></li>
+        <li><a href="#kreator">Laptop Kreator &amp; Studio</a></li>
+        <li><a href="#produk">Semua Laptop &amp; Spek</a></li>
+      </ul>
+    </div>
+
+    <!-- Kolom 3: Bantuan & Layanan -->
+    <div class="footer-kolom">
+      <h4 class="footer-judul">Bantuan &amp; Layanan</h4>
+      <ul class="footer-link">
+        <li><a href="#layanan">Keunggulan Layanan</a></li>
+        <li><a href="#faq">Pertanyaan Umum (FAQ)</a></li>
+        <li><a href="#">Cek Status Garansi</a></li>
+        <li><a href="#">Panduan Pembayaran</a></li>
+        <li><a href="#">Kebijakan Garansi 14 Hari</a></li>
+      </ul>
+    </div>
+
+    <!-- Kolom 4: Pembayaran & Ekspedisi -->
+    <div class="footer-kolom">
+      <h4 class="footer-judul">Metode Pembayaran</h4>
+      <div class="badge-list">
+        <span class="tag-metode">BCA</span>
+        <span class="tag-metode">Mandiri</span>
+        <span class="tag-metode">BRI</span>
+        <span class="tag-metode">QRIS</span>
+        <span class="tag-metode">Visa/Mastercard</span>
+        <span class="tag-metode">Cicilan 0%</span>
+      </div>
+
+      <h4 class="footer-judul mt-4">Mitra Ekspedisi Aman</h4>
+      <div class="badge-list">
+        <span class="tag-metode">JNE Reg / YES</span>
+        <span class="tag-metode">SiCepat Cargo</span>
+        <span class="tag-metode">J&amp;T Express</span>
+        <span class="tag-metode">GoSend Instant</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bawah">
+    <div class="wadah footer-bawah-isi">
+      <p>&copy; 2026 NusaLaptop Indonesia. Semua hak dilindungi.</p>
+      <div class="footer-bawah-link">
+        <a href="#">Syarat &amp; Ketentuan</a>
+        <span>&bull;</span>
+        <a href="#">Kebijakan Privasi</a>
+        <span>&bull;</span>
+        <a href="#">Keamanan Transaksi</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<div class="floating-container">
+  <!-- Tombol WhatsApp CS Konsultasi -->
+  <a href="https://wa.me/6281234567890?text=Halo%20NusaLaptop,%20saya%20mau%20tanya%20rekomendasi%20laptop" 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     class="btn-float btn-wa" 
+     title="Konsultasi Spek via WhatsApp" 
+     aria-label="Chat WhatsApp Konsultasi">
+    <span class="btn-wa-icon">💬</span>
+    <span class="btn-wa-text">Konsultasi Spek</span>
+  </a>
+
+  <!-- Tombol Kembali ke Atas -->
+  <button type="button" class="btn-float btn-top" id="btnScrollTop" title="Kembali ke atas" aria-label="Kembali ke atas">
+    ↑
+  </button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
